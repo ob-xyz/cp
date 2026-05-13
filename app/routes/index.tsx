@@ -63,7 +63,7 @@ export default function Index() {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img className="logo" src={tp} alt="Canada Poast Logo" />
             <p>Subscribe to Canada Poast's free newsletter</p>
-            <p>Get Canadian business, policy, and tech news, plus one trending podcast, and exclusive subscriber-only insights</p>
+            <p>Get today's business news, plus one trending podcast, and exclusive subscriber-only insights</p>
             <form method="post" action="https://app.thepoast.com/subscription/form">
               <div className="input-wrapper">
                 <input className="email" type="email" name="email" required placeholder="Email Address *" />
