@@ -1,0 +1,13 @@
+altcha-widget {
+  position: relative;
+  margin-left: 0;
+  margin-top: 0.1rem;
+  max-width: 200px;
+  --altcha-max-width: 300px;
+  --altcha-border-width: 0;
+  font-size: 1.25rem;
+  font-family: ku;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=altcha.css.map */
