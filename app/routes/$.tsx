@@ -14,7 +14,7 @@ export default function Index() {
         <img className="logo" src={tp} alt="Canada Poast Logo" />
         <p>gotta minute?</p>
         <p>That's all it takes to keep up with Canada</p>
-        <p>Join 12,000 readers for <a href="/today">one daily email</a></p>          
+        <p>Join 12,000 readers for <a href="/today">one weekly email</a></p>          
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

@@ -63,7 +63,7 @@ export default function Index() {
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img className="logo" src={tp} alt="Canada Poast Logo" />
             <p>Subscribe to Canada Poast's free newsletter</p>
-            <p>Get Canadian business, tech, and policy news, plus one trending podcast, and exclusive subscriber-only insights</p>
+            <p>Get Canadian business, policy, and tech news, plus one trending podcast, and exclusive subscriber-only insights</p>
             <form method="post" action="https://app.thepoast.com/subscription/form">
               <div className="input-wrapper">
                 <input className="email" type="email" name="email" required placeholder="Email Address *" />
@@ -88,7 +88,7 @@ export default function Index() {
         <img className="logo" src={logo} alt="Canada Poast Logo" />
         <p>gotta minute?</p>
         <p>That's all it takes to keep up with Canada</p>
-        <p>Join 12,000 readers for <a href="/today">one daily email</a></p>        
+        <p>Join 12,000 readers for <a href="/today">one weekly email</a></p>        
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
