@@ -63,7 +63,7 @@ export default function Index() {
             <div className="subscribe">
                 <h1>Get the Canada Poast</h1>
                 <div className="logo-grid">
-                    <form method="post" action="https://app.thepoast.com/subscription/form">
+                    <form method="post" action="https://app.canadapoast.com/subscription/form">
                     <div className="input-wrapper">
                     <input className="email" type="text" name="firstName" placeholder="First Name *" />
                     </div>

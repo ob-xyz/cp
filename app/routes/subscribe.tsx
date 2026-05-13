@@ -33,7 +33,7 @@ export default function Index() {
              <Link to="/">Home</Link>
           </div>
         </div>
-          <form method="post" action="https://app.thepoast.com/subscription/form">
+          <form method="post" action="https://app.canadapoast.com/subscription/form">
           <div className="input-wrapper">
             <input className="email" type="text" name="firstName" placeholder="First Name *" />
           </div>

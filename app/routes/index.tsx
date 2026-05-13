@@ -64,7 +64,7 @@ export default function Index() {
             <img className="logo" src={tp} alt="Canada Poast Logo" />
             <p>Subscribe to Canada Poast's free newsletter</p>
             <p>Get today's business news, plus one trending podcast, and exclusive subscriber-only insights</p>
-            <form method="post" action="https://app.thepoast.com/subscription/form">
+            <form method="post" action="https://app.canadapoast.com/subscription/form">
               <div className="input-wrapper">
                 <input className="email" type="email" name="email" required placeholder="Email Address *" />
                 <button className="submit" type="submit">
