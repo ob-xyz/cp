@@ -44,7 +44,7 @@ export default function Index() {
             <button className="submit" type="submit">Submit</button>
           </div>
           <Altcha />
-          <input id="bcd05" type="hidden" name="l" checked value="bcd05274-b4b9-4a90-a8b5-1fdee92637fa" />
+          <input id="36b8c" type="hidden" name="l" checked value="36b8c160-7d12-4103-aaba-8e3cd90d9d64" />
           <input type="hidden" name="nonce" />
         </form>
           <img className="headerimg" src={j} alt="Instagram" />
