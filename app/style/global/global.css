@@ -212,6 +212,9 @@ body {
 .container .header .nav .info:hover {
   transform: rotate(180deg);
 }
+.container .header h3 {
+  font-size: 1.75rem;
+}
 .container .header p {
   padding: 0;
   margin: 0;
