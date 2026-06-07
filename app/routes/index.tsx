@@ -10,6 +10,7 @@ import info from "~/../public/img/social/info.png";
 import j from "~/../public/img/ja7.png";
 import tp from "~/../public/img/ja1.png";
 import logo from "~/../public/img/ja.png";
+import yt from "~/../public/img/social/youtube.png";
 
 export async function action({ request }: ActionFunctionArgs) {
   const formData = await request.formData();
@@ -85,7 +86,12 @@ export default function Index() {
 
       {/* HEADER SECTION */}
       <div className="header">
-        <img className="logo" src={logo} alt="Canada Poast Logo" />
+        <div className="nav">
+        <img className="logo" src={logo} alt="The Poast Logo" />
+        <Link className="info" to="/info">
+            <img src={info} alt="More Info" />
+        </Link>
+        </div>
         <p>Gotta minute?</p>
         <p>That's all it takes to keep up with Canada</p>
         <p>Join 12,000 readers for <a href="/today">one weekly email</a></p>        
@@ -101,9 +107,9 @@ export default function Index() {
               <a className="li" href="https://linkedin.com/company/canadapoast" target="_blank" rel="noopener noreferrer">
                 <img src={li} alt="LinkedIn" />
               </a>
-              <Link className="info" to="/info">
-                <img src={info} alt="More Info" />
-              </Link>
+              <a className="yt" href="https://youtube.com/@thepoast" target="_blank" rel="noopener noreferrer">
+                <img src={yt} alt="YouTube" />
+              </a>
             </div>
           </div>
           <div className="inner-header2">
