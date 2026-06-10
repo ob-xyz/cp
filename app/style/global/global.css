@@ -317,7 +317,29 @@ body {
   box-shadow: 0 0 20px 8px rgb(255, 113, 113);
 }
 
-@media (max-width: 855px) {
+@media (min-width: 892px) and (max-width: 1300px) {
+  .header .nav {
+    margin-bottom: 2rem;
+    padding-top: 1.35rem;
+  }
+  .header .nav .logo {
+    width: 3.25rem;
+  }
+  .header .nav .info {
+    margin-right: 0rem;
+  }
+  .header p:nth-child(3), .header p:nth-child(4) {
+    font-size: 1rem;
+  }
+  .header h1 {
+    margin: 2.5rem auto 2.5rem auto;
+    line-height: 0;
+  }
+  .header h3 {
+    margin: 0rem auto;
+  }
+}
+@media (max-width: 891px) {
   .container .modal-overlay p {
     font-size: 1.1rem;
     width: 75%;
