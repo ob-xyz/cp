@@ -383,21 +383,20 @@ background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffa72b 5%, #ff9603 
           margin-right:0rem;
       }
      }
-      p {
-        font-size: 1.4rem;
-        &:nth-child(3),
-        &:nth-child(4){
-          font-size:1rem;
-        }
-      }
       h1{
         font-size:2rem;
       }
       h3{
-        font-size:1.45rem;
+        font-size:1rem;
+      }
+      p {
+        &:nth-child(3),
+        &:nth-child(4){
+          font-size:.75rem;
+        }
       }
       p a {
-        font-size: 1rem;
+        font-size: .75rem;
       }
       .headerimg{
         width: 100%;

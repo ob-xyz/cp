@@ -10,6 +10,7 @@ import x from "~/../public/img/social/x.png";
 import ig from "~/../public/img/social/instagram.png";
 import yt from "~/../public/img/social/youtube.png";
 import logo from "~/../public/img/ja.png";
+import info from "~/../public/img/social/info.png";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: scroll },
@@ -18,7 +19,12 @@ export default function Index() {
   return (
     <div className="moreinfo-container">
       <div className="header">
-        <img className="logo" src={logo} alt="Canada Poast Logo" />
+        <div className="nav">
+        <img className="logo" src={logo} alt="The Poast Logo" />
+        <Link className="info" to="/info">
+            <img src={info} alt="More Info" />
+        </Link>
+        </div>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">

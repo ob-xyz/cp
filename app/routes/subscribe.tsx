@@ -7,11 +7,18 @@ import ig from "~/../public/img/social/instagram.png";
 import yt from "~/../public/img/social/youtube.png";
 import j from "~/../public/img/ja7.png";
 import logo from "~/../public/img/ja.png";
+import info from "~/../public/img/social/info.png";
+
 export default function Index() {
   return (
     <div className="subscribe-container">
       <div className="header">
-        <img className="logo" src={logo} alt="Canada Poast Logo" />
+        <div className="nav">
+        <img className="logo" src={logo} alt="The Poast Logo" />
+        <Link className="info" to="/info">
+            <img src={info} alt="More Info" />
+        </Link>
+        </div>
         <div className="outer-header">
           <div className="inner-header">
             <div className="social">
