@@ -144,7 +144,7 @@ body {
   font-family: ku;
   font-weight: 100;
   background: #fff;
-  color: #fff;
+  color: #000;
 }
 .container .modal-content form input.email:focus {
   outline: none;
@@ -919,6 +919,7 @@ body {
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form .input-wrapper {
   position: relative;
   width: 36.25rem;
+  margin: 0.15rem 0;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email {
   width: 100%;
@@ -930,7 +931,7 @@ body {
   font-family: ku;
   font-weight: 100;
   background: #fff;
-  color: #fff;
+  color: #000;
 }
 .moreinfo-container .inner-container .profile-outside .subscribe .logo-grid form input.email:focus {
   outline: none;
