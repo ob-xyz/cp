@@ -42,7 +42,7 @@ export default function Index() {
             <Link to="/subscribe">Subscribe</Link>
           </div>
         </div>
-        <img className="headerimg" src={j} alt="Canada Poast" />
+        {/* <img className="headerimg" src={j} alt="Canada Poast" /> */}
                 <div className="err">
             <h1>404 | This page could not be found.</h1>
         </div>
